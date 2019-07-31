@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+def create_ben_franklin_quotes(content) do
+    Quote.create(content: content, origin: "Ben Franklin", quotation: true, seeded: true)
+end
+
+
