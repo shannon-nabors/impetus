@@ -1,8 +1,7 @@
-# require 'nokogiri'
-# require 'open-uri'
+Quote.destroy_all
 
 scraper = Scraper.new
-scaper.scrape_quote_content
+scraper.seed_quotes
 
 
 
